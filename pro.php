@@ -8,17 +8,6 @@
   </head>
   <body>
 
-    <!-- <div class="form-group">
-      <label class="col-md-4 control-label">First Name:</label>
-      <div class="col-md-4 inputGroupContainer">
-        <div class="input-group">
-          <span class="input-group-addon"> <i class="glyphicon glyphicon-user"></i></span>
-          <input name="fname" placeholder="Enter First Name" class="form-control" id="fname"  type="text" autocomplete="off">
-        </div>
-        <h5 id="firstNamecheck"> </h5>
-      </div>
-    </div> -->
-
     <div class="container">
       <div class="form-group">
         <div class="text-center">
@@ -55,55 +44,6 @@
       </div>
     </div>
   </div>
-
-
-
-
-    <?php
-
-
-    /*if (isset($_POST['submit'])) {
-      $first_name = $_SESSION[$_POST['fname']];
-      $last_name = $_POST['lname'];
-
-      echo "Your name is ". $first_name." ".$last_name.'<br>';
-
-      $gender = $_POST['gender'];
-      echo "Gender: ". $gender.'<br>';
-
-      $instName = $_POST['instName'];
-      echo "Name of the institution: ". $instName.'<br>';
-
-      $degree = $_POST['degree'];
-      echo "Your current degree: ". $degree.'<br>';
-
-      $twn = $_POST['twn'];
-      echo "Hometown: ". $twn.'<br>';
-
-      $thana = $_POST['thana'];
-      echo "Thana: ". $thana.'<br>';
-
-      $zip = $_POST['zip'];
-      echo "ZIP code: ". $zip.'<br>';
-
-      $twn2 = $_POST['twn2'];
-      echo "Current town: ". $twn2.'<br>';
-
-      $thana2 = $_POST['thana2'];
-      echo "Thana: ". $thana2.'<br>';
-
-      $zip2 = $_POST['zip2'];
-      echo "ZIP code: ". $zip2.'<br>';
-
-      $mob = $_POST['mob'];
-      $ph = $_POST['ph'];
-      echo "Mobile No.: ".$ph.$mob.'<br>';
-
-      $email = $_POST['email'];
-      echo "Email: ".$email.'<br>';
-
-    }*/
-     ?>
 
   </body>
 </html>
