@@ -92,28 +92,6 @@ include "servers.php";?>
           mysqli_query($con, $informationSQL);
 
 
-       //  $sqlValidation =  mysqli_query($con, "SELECT CASE WHEN (select count(*) from user)=(select count(*) from information) THEN 1 ELSE 0 END AS RowCountResult = '$RowCountResult'");
-       //
-       //  $RowCountResult = mysql_fetch_object($sqlValidation);
-       //
-       // //$sqlValid = mysqli_query($con, $sqlValidation);
-       //
-       // if ($RowCountResult === 0) {
-       //   $isValid = false;
-       //   array_push($error, "Your information can't be inserted succesfully for database issue. Please enter again!");
-       //
-       // }
-       //
-       // else{}
-
-
-          /*$insertSQL = "INSERT INTO user(username, email, password) VALUES (?,?,?)";
-        $stmt = $con->prepare($insertSQL);
-        $stmt->bind_param('sss',$username,$email,$pass1);
-        $stmt->execute();
-        $stmt->close();*/
-
-
     $success_message = "Account is created successfully!";
 
           $_SESSION['username'] = $username;
